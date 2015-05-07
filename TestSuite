@@ -18,25 +18,25 @@ public class TestSuite {
 	   assertEquals(par, random);
 
    }
-   
+   @Test
    public void scoreSoFarValid () {
 		 Main bar = new Main();
 		 int score = bar.scoreSoFar("hamerOfDeath", "Simpson");
 			assertEquals(score, 0);
 	   }
-   
+   @Test
    public void numberOfHolesPlayed () {
 		 Round bob = new Round();
 		 int score = bob.numberOfHOlesPlayed();
 			assertEquals(score, 0);
 	   }
-   
+   @Test
    public void newRoundValid(){
 	   Main foo = new Main();
 	  Round round = foo.newRound("hamerOfDeath", "Simpson");
 	  assertEquals(round, null);
    }
-   
+   @Test
    public void scoreDetailValid(){
 	   Round foo = new Round();
 	  int[] scoreDetail = foo.scoreDetail();
