@@ -1,4 +1,3 @@
-package Facebook;
 
 
 public class MiniGolf 
