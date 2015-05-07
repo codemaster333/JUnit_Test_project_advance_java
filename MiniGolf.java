@@ -1,15 +1,20 @@
+package Facebook;
+
+
 public class MiniGolf 
 {
-	public class Round 
+ class Round 
 	{
 		public int currentScore()
 		{
+			return 0;
 			
 			
 		}
 		
 		public int numberOfHOlesPlayed ()
 		{
+			return 0;
 			
 			
 		}
@@ -22,6 +27,7 @@ public class MiniGolf
 		
 		public int[] scoreDetail()
 		{
+			return null;
 			
 			
 		}
@@ -29,25 +35,29 @@ public class MiniGolf
 	
 	}
 
-	public void Main 
+	static class Main 
 	{
 		public static Round newRound (String courseName, String playerName )
 		{
+			return null;
 
 		}		
 		
 		public static Round getRound (String player, String courseName )
 		{
+			return null;
 			
 		}
 		
 		public static Course getCourse (String courseName)
 		{
+			return null;
 			
 		}
 		
 		public static int scoreSoFar (String courseName, String playerName)
 		{
+			return 0;
 			
 		}
 		
@@ -58,20 +68,23 @@ public class MiniGolf
 		
 	}
 
-	public class Course 
+	 class Course 
 	{
 		public String getName()
 		{
+			return null;
 			
 		}
 		
 		public int getNumberOfHoles ()
 		{
+			return 0;
 			
 		}
 		
 		public int parForHole (int hole)
 		{
+			return hole;
 			
 		}
 		
