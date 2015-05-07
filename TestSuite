@@ -1,0 +1,45 @@
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+public class TestSuite {
+   @Test
+   public void scoreValid () {
+	 Round bob = new Round();
+	 int score = bob.currentScore();
+		assertEquals(score, 0);
+   }
+   
+   @Test
+   public void setPar(){
+	
+	   Course foo = new Course();
+	   int random = (int) (Math.random() * 10) +1;
+	  int par= foo.parForHole(random);
+	   assertEquals(par, random);
+
+   }
+   
+   public void scoreSoFarValid () {
+		 Main bar = new Main();
+		 int score = bar.scoreSoFar("hamerOfDeath", "Simpson");
+			assertEquals(score, 0);
+	   }
+   
+   public void numberOfHolesPlayed () {
+		 Round bob = new Round();
+		 int score = bob.numberOfHOlesPlayed();
+			assertEquals(score, 0);
+	   }
+   
+   public void newRoundValid(){
+	   Main foo = new Main();
+	  Round round = foo.newRound("hamerOfDeath", "Simpson");
+	  assertEquals(round, null);
+   }
+   
+   public void scoreDetailValid(){
+	   Round foo = new Round();
+	  int[] scoreDetail = foo.scoreDetail();
+	  assertEquals(scoreDetail, null);
+   }
+}
