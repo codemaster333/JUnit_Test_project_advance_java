@@ -1,7 +1,3 @@
-
-
-public class MiniGolf 
-{
  class Round 
 	{
 		public int currentScore()
@@ -34,7 +30,7 @@ public class MiniGolf
 	
 	}
 
-	static class Main 
+	public class Main 
 	{
 		public static Round newRound (String courseName, String playerName )
 		{
@@ -90,4 +86,3 @@ public class MiniGolf
 		
 	}
 
-}
