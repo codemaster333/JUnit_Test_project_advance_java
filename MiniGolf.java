@@ -1,26 +1,26 @@
-﻿public class MiniGolf 
+public class MiniGolf 
 {
 	public class Round 
 	{
-		public static int currentScore()
+		public int currentScore()
 		{
 			
 			
 		}
 		
-		public static int numberOfHOlesPlayed ()
+		public int numberOfHOlesPlayed ()
 		{
 			
 			
 		}
 		
-		public static void enterScore (int Strokes)
+		public void enterScore (int Strokes)
 		{
 			
 			
 		}
 		
-		public static int[] scoreDetail()
+		public int[] scoreDetail()
 		{
 			
 			
@@ -29,7 +29,7 @@
 	
 	}
 
-	public static void Main 
+	public void Main 
 	{
 		public static Round newRound (String courseName, String playerName )
 		{
@@ -46,7 +46,7 @@
 			
 		}
 		
-		public static int scoreSoFar (String courseName, string playerName)
+		public static int scoreSoFar (String courseName, String playerName)
 		{
 			
 		}
@@ -60,7 +60,7 @@
 
 	public class Course 
 	{
-		public static String getName()
+		public String getName()
 		{
 			
 		}
